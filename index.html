@@ -5,22 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>My Resume</title>
 </head>
 <body>
 
 <!-- Main container -->
-<div class="container">
+<div class="main-container container d-flex flex-row-reverse mt-4 mb-4 bg-white p-0">
 
     <!-- Main content section -->
-    <div>
+    <div class="main-content-section">
         <!-- About me section -->
-        <div class="scrollfading">
-            <h2>Front-End Developer</h2>
+        <div class="about-me-section scrollfading">
+            <h2 class="about-me-professional">Front-End Developer</h2>
             <h1>Anton Chornyi</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
@@ -28,20 +30,20 @@
         </div>
 
         <!-- My projects section -->
-        <div class="scrollfading">
+        <div class="my-projects-section scrollfading">
             <h3>Projects</h3>
-            <ol>
-                <li>
+            <ol class="projects">
+                <li class="project-item">
                     <a href="https://hellenglish.goit.global/">hellenglish.goit.global</a>
                     <span>....</span>
                     [ HTML, CSS ]
                 </li>
-                <li>
+                <li class="project-item">
                     <a href="https://cryptohub.goit.global/">cryptohub.goit.global</a>
                     <span>.....</span>
                     [ JavaScript ]
                 </li>
-                <li>
+                <li class="project-item">
                     <a href="https://kidslike.goit.global/">kidslike.goit.global</a>
                     <span>.........</span>
                     [ React.js, Node.js ]
@@ -50,7 +52,7 @@
         </div>
 
         <!-- My work experience section -->
-        <div class="scrollfading">
+        <div class="my-work-experience-section scrollfading">
             <h3>Work Experience</h3>
 
             <!-- Company № -->
@@ -96,7 +98,7 @@
         </div>
 
         <!-- Education section -->
-        <div class="scrollfading">
+        <div class="my-education-section scrollfading">
             <h3>Education</h3>
             <h4>National University of Radioelectronics</h4>
             <h5>Management</h5>
@@ -105,11 +107,11 @@
     </div>
 
     <!-- Sidebar section -->
-    <aside>
-        <img src="images/person.jpg" alt=""/>
+    <aside class="sidebar-section pt-5">
+        <img src="images/person.jpg" alt="" class="img-fluid"/>
 
         <!-- Contacts section -->
-        <div>
+        <div class="ps-4 pe-4">
             <h3>Contacts</h3>
             <div>
                 <abbr title="Phone">P:</abbr>
@@ -119,7 +121,6 @@
                 <abbr title="Email">E:</abbr>
                 <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
             </div>
-
 
         </div>
 
@@ -172,8 +173,8 @@
 -->
 <script>
     $(function () {
-        ('.scrollfading').scrollfading();
-    })
+        $('.scrollfading').scrollfading();
+    });
 </script>
 </body>
 </html>

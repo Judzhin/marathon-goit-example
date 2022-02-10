@@ -1,0 +1,69 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main-container {
+    /*display: flex;*/
+    /*!*flex-direction: row; default*!*/
+    /*flex-direction: row-reverse;*/
+    width: 1200px;
+    /*background-color: white;*/
+    /*margin: 40px auto;*/
+    /*padding: 0px;*/
+}
+
+.main-content-section {
+    /*display: flex;*/
+    /*!*flex-direction: row; default*!*/
+    /*flex-direction: column;*/
+}
+
+.about-me-section {
+    /*background-color: gray;*/
+}
+
+.about-me-professional {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.my-projects-section {
+    /*background-color: yellow;*/
+}
+
+.my-work-experience-section {
+    /*background-color: blue;*/
+}
+
+.my-education-section {
+    /*background-color: green;*/
+}
+
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+/* Override */
+.mt-4 {
+    margin-top: 40px !important;
+}
+
+.mb-4 {
+    margin-bottom: 40px !important;
+}
+
+.ps-4 {
+    padding-left: 40px !important;
+}
+
+.pe-4 {
+    padding-right: 40px !important;
+}
