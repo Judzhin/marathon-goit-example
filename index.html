@@ -10,20 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-
-    <title>My Resume</title>
+    <title>Eugen Shykor - PHP Developer</title>
 </head>
 <body>
 
 <!-- Main container -->
-<div class="main-container container d-flex flex-row-reverse mt-4 mb-4 bg-white p-0">
+<div class="main-container !container !d-flex !flex-row-reverse !mt-4 !mb-4 !bg-white !p-0">
 
     <!-- Main content section -->
     <div class="main-content-section">
         <!-- About me section -->
         <div class="about-me-section scrollfading">
-            <h2 class="about-me-professional">Front-End Developer</h2>
-            <h1>Anton Chornyi</h1>
+            <h2 class="about-me-professional">Back-End Developer</h2>
+            <h1>Евгений Шикор</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
                 lacus vel facilisis.</p>
@@ -34,19 +33,29 @@
             <h3>Projects</h3>
             <ol class="projects">
                 <li class="project-item">
-                    <a href="https://hellenglish.goit.global/">hellenglish.goit.global</a>
+                    <a href="https://cv.msbios.com/00.asd.pdf">hellenglish.goit.global</a>
                     <span>....</span>
                     [ HTML, CSS ]
                 </li>
                 <li class="project-item">
-                    <a href="https://cryptohub.goit.global/">cryptohub.goit.global</a>
+                    <a href="#">Электронные петиции Украины</a>
                     <span>.....</span>
-                    [ JavaScript ]
+                    [ PHP, MySQL, Zend Framework 2, REST, API, JavaScript, Bootstrap, PHPUnit, apiDoc ]
                 </li>
                 <li class="project-item">
-                    <a href="https://kidslike.goit.global/">kidslike.goit.global</a>
+                    <a href="https://cv.msbios.com/01.vr.pdf">Бронирование систем видеоконференцсвязи</a>
+                    <span>.....</span>
+                    [ PHP, Zend Framework 1, MySQL, JavaScript, ExtJS ]
+                </li>
+                <li class="project-item">
+                    <a href="https://cryptohub.goit.global/">Автоматизированная система делопроизводства</a>
+                    <span>.....</span>
+                    [ PHP, Zend Framework 1, Firebird, JavaScript, ExtJS ]
+                </li>
+                <li class="project-item">
+                    <a href="https://dsa.court.gov.ua/dsa/inshe/14/Nakaz_DSA_18_11_2015">Информационное окно суда</a>
                     <span>.........</span>
-                    [ React.js, Node.js ]
+                    [ PHP, Firebird, CodeIgniter, JavaScript, Slablet (Tablet UI) ]
                 </li>
             </ol>
         </div>
@@ -107,48 +116,87 @@
     </div>
 
     <!-- Sidebar section -->
-    <aside class="sidebar-section pt-5">
-        <img src="images/person.jpg" alt="" class="img-fluid"/>
+    <aside class="sidebar-section !pt-5">
+        <img src="images/person.jpg" alt="Judzhin Miles" class="sidebar-image !img-fluid"/>
 
         <!-- Contacts section -->
-        <div class="ps-4 pe-4">
-            <h3>Contacts</h3>
+        <div class="sidebar-section-item !ps-4 !pe-4">
+            <h3 class="sidebar-title">Contacts</h3>
             <div>
-                <abbr title="Phone">P:</abbr>
-                <a href="tel:+77777777777">+7 777 777 77 77</a>
+                <abbr title="Phone" class="contacts-section-type">P:</abbr>
+                <a href="tel:+380989089398" class="contacts-section-link">+38 098 908 93 98</a>
             </div>
             <div>
-                <abbr title="Email">E:</abbr>
-                <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                <abbr title="Email" class="contacts-section-type">E:</abbr>
+                <a href="mailto:msbios@gmail.com" class="contacts-section-link">msbios@gmail.com</a>
             </div>
 
         </div>
 
         <!-- Tech skills section -->
-        <div>
-            <h3>Tech Skills</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
+        <div class="sidebar-section-item">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span>HTML5</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>CSS3</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>SASS</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Less</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>PHP</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>MySQL/PostgeSQL/NoSQL</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>GIT</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>WebPack</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>JavaScript</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>ExtJS</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>React.js</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Zend/Laminas/Mezzio</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Symfony</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Laravel</span>
+                </li>
             </ul>
 
         </div>
 
         <!-- Soft skills section -->
-        <div>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
+        <div class="sidebar-section-item">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span>Scrum</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Agile</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span>Teamwork</span>
+                </li>
             </ul>
-
         </div>
     </aside>
 </div>
@@ -178,7 +226,7 @@
 -->
 <script>
     // plugin
-    $('.scrollfading').scrollfading();
+    // $('.scrollfading').scrollfading();
 </script>
 </body>
 </html>
